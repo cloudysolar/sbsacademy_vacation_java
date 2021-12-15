@@ -6,7 +6,7 @@ public class Lesson06_03 {
 		int level = 3;
 
 		for (int i = 0; i < level; i++) {
-			for (int j = 0; j <= level; j++) {
+			for (int j = 0; j <= i; j++) {
 				System.out.print("*");
 			}
 
